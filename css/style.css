@@ -3,9 +3,110 @@
   margin: 0;
 }
 
-header {background-color:;}
+.container
+.header_text
 
-.catalog_nav {
-  display: inline;
-  border-bottom: 5px solid #000
+
+<!-- catalog-->
+<!-- Шапка-->
+.header {background-color:;}
+.header_logo
+
+ <!-- Навигация-->
+.navigation
+
+<!-- Шапка-кнопки-->
+.header_bing
+.header_bing_full
+.header__call
+.header_promo
+
+<!-- Заголовок-->
+.container{
+  background-image: url(image/header1.png);
 }
+.header_promo
+.header_promo_second{
+
+}
+
+<!-- Основная часть-->
+.bcg{
+  background-image: url(image/background.png);
+}
+
+<!--Каталог-->
+.catalog
+.catalog_nav
+.catalog_nav_section
+.catalog_nav_section_active
+
+<!-- Каталог - 2 уровень-->
+.second_nav
+.second_nav_section
+
+<!-- Реклама-->
+.promo
+.promo_first{
+background-image: url(image/promo1.png);
+}
+.promo_second{
+background-image: url(image/promo2.png);
+}
+
+.promo_title
+.promo_button_orange
+
+<!-- Карточки товара-->
+.card {
+}
+.card_img
+.card_name
+.card_feature
+.card_hover
+
+<!-- Акции-->
+.action
+.action_first{
+background-image: url(image/action1.png);
+}
+.action_second{
+background-image: url(image/action2.png);
+}
+.action_header
+.action_text
+.action_button
+
+<!-- Подвал-->
+
+.footer_catalog
+.footer_catalog_header
+.footer_catalog_page
+
+.footer_right
+.footer_feedback
+.footer_network
+
+<!-- index-->
+<!--Подразделы каталога-->
+.section_content
+.section_content_part
+.section_content_header
+.section_content_subtitle
+.section_content_img
+
+
+<!-- Как сделать заказ? -->
+
+.tutorial
+.tutorial_part
+.tutorial_number
+.tutorial_text
+
+
+<!-- Контакты -->
+.contact
+.map
+.contact_block
+.contact_header
+.contact_text
