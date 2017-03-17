@@ -4,8 +4,14 @@
 }
 
 .container
-.header_text
+.title_text_blue
+.title_text_white
+.title_text_yellow
 
+.bcg_blue
+.bcg_grey
+.bcg_print
+h1
 
 <!-- catalog-->
 <!-- Шапка-->
@@ -18,17 +24,19 @@
 <!-- Шапка-кнопки-->
 .header_bing
 .header_bing_full
-.header__call
-.header_promo
+.header_call
+
 
 <!-- Заголовок-->
-.container{
-  background-image: url(image/header1.png);
+.promo {
+   background-image: url(image/header1.png);
 }
-.header_promo
-.header_promo_second{
+.promo_second{
 
 }
+.promo_text
+.promo_text_second{
+blockquote
 
 <!-- Основная часть-->
 .bcg{
@@ -38,12 +46,12 @@
 <!--Каталог-->
 .catalog
 .catalog_nav
-.catalog_nav_section
-.catalog_nav_section_active
+.catalog_nav_chapter
+.catalog_nav_chapter_active
 
 <!-- Каталог - 2 уровень-->
 .second_nav
-.second_nav_section
+.second_nav_chapter
 
 <!-- Реклама-->
 .promo
@@ -73,7 +81,6 @@ background-image: url(image/action1.png);
 .action_second{
 background-image: url(image/action2.png);
 }
-.action_header
 .action_text
 .action_button
 
@@ -89,12 +96,14 @@ background-image: url(image/action2.png);
 
 <!-- index-->
 <!--Подразделы каталога-->
-.section_content
-.section_content_part
-.section_content_header
-.section_content_subtitle
-.section_content_img
+.chapter_content
+.chapter_content_part
+.chapter_content_header
+.chapter_content_subtitle
+.chapter_content_img
 
+<!-- Популярные товары -->
+.popular
 
 <!-- Как сделать заказ? -->
 
@@ -108,5 +117,55 @@ background-image: url(image/action2.png);
 .contact
 .map
 .contact_block
-.contact_header
+.contact_title
 .contact_text
+
+/*item*/
+!-- Карточка товара-->
+.product_card
+.product_bcg_blue
+.product_bcg_grey
+.product_left
+.product_right
+.crumbs
+.circle
+.product_title
+.product_second_title
+.product_features
+.product_feature
+.product_feature_left
+.product_feature_right
+
+<!-- Комплектация-->
+.complect
+.comp_card
+.comp_card_img
+
+<!-- Описание аквариума-->
+.description
+.descr_text
+.descr_fish
+.descr_fish_left
+.descr_fish_right
+
+<!-- С этим товаром покупают-->
+.attach
+
+<!-- Похожие-->
+.similar
+
+<!-- form-->
+.form
+.product_bcg_blue
+.product_bcg_grey
+.form_card
+.form_card_left
+.form_card_center
+.form_card_right
+.form_row
+.form_simple_text
+.form_grey_text
+.form_bold_text
+.arrow_up
+.arrow_down
+.input
