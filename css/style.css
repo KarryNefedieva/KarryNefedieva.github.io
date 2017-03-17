@@ -1,30 +1,75 @@
-*{
+ font-family: 'Rubik', sans-serif;
+
+
+
+body {
+ font-family: 'PT Sans', sans-serif;
+}
+
+
+* {
   padding: 0;
   margin: 0;
 }
 
-.container
-.title_text_blue
-.title_text_white
-.title_text_yellow
+.container {
 
-.bcg_blue
-.bcg_grey
-.bcg_print
-h1
+}
+.title_text_blue {
 
-<!-- catalog-->
-<!-- Шапка-->
-.header {background-color:;}
-.header_logo
+}
+.title_text_white{
+
+}
+.title_text_yellow{
+
+}
+
+.bcg_blue{
+
+}
+.bcg_grey{
+
+}
+.bcg_print{
+
+}
+
+.title_bcg_index {
+  height: 580px;
+  width: 1170px;
+
+  background-image: url(https://github.com/KarryNefedieva/KarryNefedieva.github.io/blob/master/image/header1.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.title_bcg_catalog {
+  height: 415px;
+  background-image: url(image/header_photo.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.header_logo{
+
+}
 
  <!-- Навигация-->
-.navigation
+.navigation{
+
+}
 
 <!-- Шапка-кнопки-->
-.header_bing
-.header_bing_full
-.header_call
+.header_bing{
+
+}
+.header_bing_full{
+
+}
+.header_call{
+
+}
 
 
 <!-- Заголовок-->
@@ -34,9 +79,13 @@ h1
 .promo_second{
 
 }
-.promo_text
+.promo_text{
+
+}
 .promo_text_second{
-blockquote
+blockquote {
+
+}
 
 <!-- Основная часть-->
 .bcg{
@@ -44,17 +93,31 @@ blockquote
 }
 
 <!--Каталог-->
-.catalog
-.catalog_nav
-.catalog_nav_chapter
-.catalog_nav_chapter_active
+.catalog{
+
+}
+.catalog_nav{
+
+}
+.catalog_nav_chapter{
+
+}
+.catalog_nav_chapter_active{
+
+}
 
 <!-- Каталог - 2 уровень-->
-.second_nav
-.second_nav_chapter
+.second_nav{
+
+}
+.second_nav_chapter{
+
+}
 
 <!-- Реклама-->
-.promo
+.promo{
+
+}
 .promo_first{
 background-image: url(image/promo1.png);
 }
@@ -62,110 +125,244 @@ background-image: url(image/promo1.png);
 background-image: url(image/promo2.png);
 }
 
-.promo_title
-.promo_button_orange
+.promo_title{
+
+}
+.promo_button_orange{
+
+}
 
 <!-- Карточки товара-->
 .card {
 }
-.card_img
-.card_name
-.card_feature
-.card_hover
+.card_img{
+
+}
+.card_name{
+
+}
+.card_feature{
+
+}
+.card_hover{
+
+}
 
 <!-- Акции-->
-.action
+.action{
+
+}
 .action_first{
 background-image: url(image/action1.png);
 }
 .action_second{
 background-image: url(image/action2.png);
 }
-.action_text
-.action_button
+.action_text{
+
+}
+.action_button{
+
+}
 
 <!-- Подвал-->
 
-.footer_catalog
-.footer_catalog_header
-.footer_catalog_page
+.footer_catalog{
 
-.footer_right
-.footer_feedback
-.footer_network
+}
+.footer_catalog_header{
+
+}
+.footer_catalog_page{
+
+}
+
+.footer_right{
+
+}
+.footer_feedback{
+
+}
+.footer_network{
+
+}
 
 <!-- index-->
 <!--Подразделы каталога-->
-.chapter_content
-.chapter_content_part
-.chapter_content_header
-.chapter_content_subtitle
-.chapter_content_img
+.chapter_content{
+
+}
+.chapter_content_part{
+
+}
+.chapter_content_header{
+
+}
+.chapter_content_subtitle{
+
+}
+.chapter_content_img{
+
+}
 
 <!-- Популярные товары -->
-.popular
+.popular{
+
+}
 
 <!-- Как сделать заказ? -->
 
-.tutorial
-.tutorial_part
-.tutorial_number
-.tutorial_text
+.tutorial{
+
+}
+.tutorial_part{
+
+}
+.tutorial_number{
+
+}
+.tutorial_text{
+
+}
 
 
 <!-- Контакты -->
-.contact
-.map
-.contact_block
-.contact_title
-.contact_text
+.contact{
+
+}
+.map{
+
+}
+.contact_block{
+
+}
+.contact_title{
+
+}
+.contact_text{
+
+}
 
 /*item*/
 !-- Карточка товара-->
-.product_card
-.product_bcg_blue
-.product_bcg_grey
-.product_left
-.product_right
-.crumbs
-.circle
-.product_title
-.product_second_title
-.product_features
-.product_feature
-.product_feature_left
-.product_feature_right
+.product_card{
+
+}
+.product_bcg_blue{
+
+}
+.product_bcg_grey{
+
+}
+.product_left{
+
+}
+.product_right{
+
+}
+.crumbs{
+
+}
+.circle{
+
+}
+.product_title{
+
+}
+.product_second_title{
+
+}
+.product_features{
+
+}
+.product_feature{
+
+}
+.product_feature_left{
+
+}
+.product_feature_right{
+
+}
 
 <!-- Комплектация-->
-.complect
-.comp_card
-.comp_card_img
+.complect{
+
+}
+.comp_card{
+
+}
+.comp_card_img{
+
+}
 
 <!-- Описание аквариума-->
-.description
-.descr_text
-.descr_fish
-.descr_fish_left
-.descr_fish_right
+.description{
+
+}
+.descr_text{
+
+}
+.descr_fish{
+
+}
+.descr_fish_left{
+
+}
+.descr_fish_right{
+
+}
 
 <!-- С этим товаром покупают-->
-.attach
+.attach{
+
+}
 
 <!-- Похожие-->
-.similar
+.similar{
 
-<!-- form-->
-.form
-.product_bcg_blue
-.product_bcg_grey
-.form_card
-.form_card_left
-.form_card_center
-.form_card_right
-.form_row
-.form_simple_text
-.form_grey_text
-.form_bold_text
-.arrow_up
-.arrow_down
-.input
+}
+
+<!-- Форма-->
+.form{
+
+}
+.product_bcg_blue{
+
+}
+.product_bcg_grey{
+
+}
+.form_card{
+
+}
+.form_card_left{
+
+}
+.form_card_center{
+
+}
+.form_card_right{
+
+}
+.form_row{
+
+}
+.form_simple_text{
+
+}
+.form_grey_text{
+
+}
+.form_bold_text{
+
+}
+.arrow_up{
+
+}
+.arrow_down{
+
+}
+.input{
+
+}
