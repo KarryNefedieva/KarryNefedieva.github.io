@@ -11,55 +11,41 @@
 <body>
 
 <!-- Шапка-->
-<div class="title_bcg_catalog">
-  <header>
-    <div class="container">
- <!-- logo-->
-      <div class="title">
+<header>
+  <div class="container">
 
-        <div class="title_logo">
-          <a href="#" >
-          <img src="image/header_logo.png" alt="splash">
-          </a>
-        </div>
+ <!-- logo-->
+    <div class="title_logo">
+      <a href="#" >
+        <img src="image/header_logo.png" alt="splash">
+      </a>
+    </div>
 
  <!-- Навигация-->
-        <div class="navigation">
-          <nav>
-            <a href="#" class="navigation_part">Каталог</a>
-            <a href="#" class="navigation_part">Вопросы</a>
-            <a href="#" class="navigation_part_before">Контакты</a>
-         </nav>
-        </div>
-
-<!-- Шапка-кнопки-->
-        <div class="header_bing_catalog">
-          <a href="#" class="header_bing_a" >
-            <img src="image/ic_bing_full.png" alt="В корзине есть товары">
-           Корзина
-          </a>
-        </div>
-
-        <div class="header_call">
-            <a href="#" class="header_call_a">Заказать звонок</a>
-        </div>
+    <div class="navigation">
+      <nav>
+        <a href="#">Каталог</a>
+        <a href="#">Вопросы</a>
+        <a href="#">Контакты</a>
+      </nav>
     </div>
-  </header>
+
+
+    <a href="#" class="header_bin">Корзина</a>
+    <a href="#" class="header_call">Заказать обратный звонок</a>
+  </div>
+</header>
 
 
 <!-- Заголовок-->
-    <section>
-      <div class="container">
-      <div class="promo_catalog">
-        <p class="promo_title"> У нас вы найдете всё, что нужно для аквариумистики — <br> от рыбок до наполнителей в аквариум.
-        </p>
-      </div>
-      </div>
-    </section>
-</div>
+<section class="promo_bcg_catalog">
+  <div class="container">
+    <p class="promo_title"> У нас вы найдете всё, что нужно для аквариумистики — <br> от рыбок до наполнителей в аквариум.
+    </p>
+  </div>
+</section>
 
 <!-- Основная часть-->
-
 <main>
   <div class="container">
 
@@ -67,61 +53,25 @@
     <div class="catalog">
       <h1 class="catalog_title title_text_blue">Каталог товаров</h1>
 
-      <div class="catalog_nav">
+    <nav class="catalog_nav">
+      <ul>
+          <li class="catalog_nav_chapter_fish">Рыбы</li>
+          <li class="catalog_nav_chapter_aqua">Аквариумы</li>
+          <li class="catalog_nav_chapter_korm">Корма</li>
+          <li class="catalog_nav_chapter_ob">Оборудование</li>
+          <li class="catalog_nav_chapter_gr">Грунты и наполнители</li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
-        <div class="catalog_nav_ch_first">
-           <div class="catalog_nav_chapter">
-              <h2>
-                <img src="image/ic_fish.png" alt="Иконка_раздел_рыбы">
-                <a href="#" class="catalog_nav_text">Рыбы</a>
-              </h2>
-            </div>
-          </div>
-
-      <div class="catalog_nav_ch">
-            <div class="catalog_nav_chapter_active">
-              <h2>
-                <img src="image/ic_aqua_wh.svg" alt="Иконка_раздел_аквариумы">
-                <a href="#" class="catalog_nav_text_active">Аквариумы </a>
-              </h2>
-            </div>
-          </div>
-
-
-          <div class="catalog_nav_ch">
-            <div class="catalog_nav_chapter">
-              <h2>
-                <img src="image/ic_corm.png" alt="Иконка_раздел_корма">
-                <a href="#" class="catalog_nav_text">Корма</a>
-              </h2>
-            </div>
-          </div>
-
-          <div class="catalog_nav_ch">
-            <div class="catalog_nav_chapter">
-              <h2>
-                <img src="image/oborud.png" alt="Иконка_раздел_оборудование">
-                <a href="#" class="catalog_nav_text">Оборудование</a>
-              </h2>
-            </div>
-          </div>
-
-          <div class="catalog_nav_ch_past">
-            <div class="catalog_nav_chapter">
-              <h2>
-                <img src="image/ic_grunt.png" alt="Иконка_раздел_грунты">
-                <a href="#" class="catalog_nav_text" >Грунты и наполнители</a>
-              </h2>
-            </div>
-          </div>
-               </div>
-    <div style="clear: left"></div>
+   <div style="clear: left"></div>
     </div>
   </div>
 
 
 <!-- Каталог - 2 уровень-->
-<div class="bcg_blue">
+<div class="catalog_cards bcg_print">
   <div class="container">
 
 <div class="col1">
@@ -137,7 +87,7 @@
         <li><a href="#" class="second_nav_chapter">Стеклянные</a></li>
       </nav>
     </div>
-   <!-- /div> -->
+
 
 
 <!-- Реклама-->
@@ -147,9 +97,8 @@
         <span class="adv_title">Рыбки для аквариума!</span><br>
         <span class="adv_subtitle">Посмотрите весь каталог</span>
 
-        <div class="button_orange">
-          <a href="#" class="button_text">Перейти в каталог</a>
-        </div>
+
+
       </div>
     </div>
   </aside>
@@ -160,9 +109,9 @@
           <span class="adv_title">Фильтры и очистители</span><br>
           <span class="adv_subtitle">Посмотрите весь каталог</span>
 
-          <div class="button_orange">
-            <a href="#" class="button_text">Перейти в каталог</a>
-          </div>
+
+            <a href="#" class="button_orange">Перейти в каталог</a>
+
         </div>
       </div>
     </aside>
@@ -171,166 +120,205 @@
 
 
 
-  <!-- Карточки товара-->
+
 <div class="col2">
     <div class="card">
-    <a href="#">
-        <div class="card_img">
-          <img src="image/aq1.png" alt="Аквариум1"></img>
-        </div>
+      <div class="card_img">
+        <img src="image/aq1.png" alt="Аквариум1">
+      </div>
+      <div class="card_text">
         <span class="card_name">Аквариум большой</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Ширина: 25см</span>
-      </a>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
     </div>
 
-  <div class="card">
-    <a href="#">
-         <div class="card_img">
-            <img src="image/aq2.png" alt="Аквариум2"></img>
-            <img src="image/sale.png" alt="скидка"></img>
-         </div>
-          <span class="card_name">Аквариум средний</span>
-          <span class="card_feature">Объем: 400мл</span>
-          <span class="card_feature">Ширина: 20см</span>
-      </a>
+    <div class="card">
+      <div class="card_img">
+        <img src="image/aq4.png" alt="Аквариум4">
+        <img src="image/new.png" class="card_sale" alt="sale">
       </div>
+      <div class="card_text">
+        <span class="card_name">Аквариум высокий</span>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
+    </div>
 
- <div class="card">
-    <a href="#">
-        <div class="card_img">
-          <img src="image/aq3.png" alt="Аквариум3"></img>
-        </div>
+    <div class="card">
+      <div class="card_img">
+        <img src="image/aq7.png" alt="Аквариум7">
+      </div>
+      <div class="card_text">
         <span class="card_name">Аквариум широкий</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Объем: 20см</span>
-      </a>
-  </div>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
+    </div>
+
 </div>
 
 <div class="col3">
 
- <div class="card">
-       <a href="#">
-        <div class="card_img">
-          <img src="image/aq4.png" alt="Аквариум4"></img>
-        </div>
-        <span class="card_name">Аквариум высокий</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Ширина: 20см</span>
-      </a>
+
+
+
+     <div class="card">
+      <div class="card_img">
+        <img src="image/aq2.png" alt="Аквариум2">
+        <img src="image/sale.png" class="card_sale" alt="sale">
+      </div>
+
+      <div class="card_text">
+        <span class="card_name">Аквариум средний</span>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
     </div>
 
-
- <div class="card_hover">
-    <a href="#">
-        <div class="card_img">
-          <img src="image/aq5.png" alt="Аквариум5"></img>
-          <img src="image/new.png" alt="новинка"></img>
-        </div>
+    <div class="card">
+      <div class="card_img">
+        <img src="image/aq5.png" alt="Аквариум5">
+      </div>
+      <div class="card_text">
         <span class="card_name">Аквариум широкий</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Ширина:20см</span>
-      </a>
-</div>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
+    </div>
 
-
- <div class="card">
-    <a href="#">
-        <div class="card_img">
-          <img src="image/aq6.png" alt="Аквариум6"></img>
-        </div>
+    <div class="card">
+      <div class="card_img">
+        <img src="image/aq8.png" alt="Аквариум8">
+      </div>
+      <div class="card_text">
         <span class="card_name">Аквариум средний</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Ширина: 20см</span>
-      </a>
-  </div>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
+    </div>
+
   </div>
 
 
 <div class="col4">
-     <div class="card">
-    <a href="#">
-        <div class="card_img">
-          <img src="image/aq7.png" alt="Аквариум7"></img>
-        </div>
+         <div class="card">
+      <div class="card_img">
+        <img src="image/aq3.png" alt="Аквариум3">
+      </div>
+      <div class="card_text">
         <span class="card_name">Аквариум широкий</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Ширина: 20см</span>
-      </a>
-    </div>
-
-
-     <div class="card">
-    <a href="#">
-        <div class="card_img">
-          <img src="image/aq8.png" alt="Аквариум8"></img>
-        </div>
-        <span class="card_name">Аквариум средний</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Ширина: 20см</span>
-      </a>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
     </div>
 
     <div class="card">
     <a href="#">
-        <div class="card_img">
-          <img src="image/aq9.png" alt="Аквариум9"></img>
-        </div>
-        <span class="card_name">Аквариум высокий</span>
-        <span class="card_feature">Объем: 400мл</span>
-        <span class="card_feature">Ширина: 20см</span>
+      <div class="card_img">
+        <img src="image/aq6.png" alt="Аквариум6">
+      </div>
+      <div class="card_text">
+        <span class="card_name">Аквариум средний</span>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
       </a>
     </div>
+
+    <div class="card">
+      <div class="card_img">
+        <img src="image/aq9.png" alt="Аквариум9">
+      </div>
+      <div class="card_text">
+        <span class="card_name">Аквариум высокий</span>
+        <span class="card_feature1">Объем: 400мл</span>
+        <span class="card_feature2">Объем: 20см</span>
+      </div>
+    </div>
+
 </div>
 </div>
 </div>
-</div>
-<!-- Акции-->
- <!--   <div style="clear: left"></div>
-   <div style="clear: right"></div>
- -->
-<div class="action action_first">
-  <span class="title_text_yellow">Акция</span>
-  <span class="action_text">Скидки 30% на все растения в марте при заказе через интернет</span>
-  <div class="action_button">
-    <a href="#">Посмотреть товары</a>
-  </div>
 </div>
 
-<div class="action action_second">
-  <span class="title_text_yellow">Акция</span>
-  <span class="action_text">Скидки 30% на группы рыб от 20 штук!</span>
-  <div class="action_button">
-    <a href="#">Посмотреть товары</a>
+<!-- Акции-->
+
+<div style="clear: left"></div>
+   <div style="clear: right"></div>
+
+<section class="action">
+  <div class="action_first_bcg"></div>
+  <div class="action_yellow_bcg"></div>
+  <div class="action_second_bcg"></div>
+
+   <div class="container">
+     <div class="action_first">
+        <span class="title_text_yellow">Акция</span>
+        <span class="action_text">Скидки 30% на все растения в марте при <br> заказе через интернет</span>
+    </div>
+    <a href="#" class="button_blue">Посмотреть товары</a>
+
+    <div class="action_second">
+      <span class="title_text_yellow">Акция</span>
+      <span class="action_text2">Скидки 30% на группы рыб от 20 штук! </span>
+      <a href="#" class="button_blue_second">Посмотреть товары</a>
+    </div>
   </div>
-</div>
+</section>
 </main>
 
+<div style="clear: left"></div>
+<div style="clear: right"></div>
+
 <!-- Подвал-->
-<footer>
-  <div class="footer">
-    <a href="#" class="footer_logo">
-      <img src="image/header_logo.png" alt="лого">
-    </a>
+<div class="x">
 
-    <div class="footer_catalog">
-      <span class="footer_catalog_header">Каталог</span>
-        <a href="#" class="footer_catalog_page">Рыбы</a>
-        <a href="#" class="footer_catalog_page">Аквариумы</a>
-        <a href="#" class="footer_catalog_page">Корма</a>
-        <a href="#" class="footer_catalog_page">Оборудование</a>
-        <a href="#" class="footer_catalog_page">Грунты и наполнители</a>
-    </div>
 
-    <div class="footer_right">
-      <a href="#" class="footer_feedback"></a>
-      <a href="#"> <img src="image/ic_ok.png" alt="ok.com" class="footer_network"></a>
-      <a href="#"> <img src="image/ic_twi.png" alt="twitter.com" class="footer_network"></a>
-      <a href="#"> <img src="image/ic_vk.png" alt="vk.com" class="footer_network"></a>
-    </div>
+</div>
+
+<footer class="bcg_blue">
+  <div class="container">
+
+    <div class="footer_block">
+     <div class="footer_logo">
+      <a href="#">
+        <img src="image/header_logo.png" alt="лого">
+      </a>
+     </div>
+
+      <div class="footer_catalog">
+        <span class="footer_catalog_header">Каталог</span>
+        <nav>
+          <ul>
+          <Div class="cat_block1">
+             <li><a href="#" class="footer_catalog_page">Рыбы</a></li>
+              <li><a href="#" class="footer_catalog_page">Аквариумы</a></li>
+              <li><a href="#" class="footer_catalog_page">Корма</a></li>
+            </Div>
+
+            <Div class="cat_block2">
+              <li><a href="#" class="footer_catalog_page">Оборудование</a></li>
+             <li><a href="#" class="footer_catalog_page">Грунты и наполнители</a></li>
+            </Div>
+
+<!-- <div style="clear: left"></div> -->
+
+          </ul>
+        </nav>
+      </div>
+
+
+      <a href="#" class="footer_feedback">Заказать обратный звонок</a>
+
+      <div class="soc_block">
+        <a href="#"> <img src="image/ic_ok.png" alt="ok.com" class="footer_network"></a>
+        <a href="#"> <img src="image/ic_twi.png" alt="twitter.com" class="footer_network"></a>
+       <a href="#"> <img src="image/ic_vk.png" alt="vk.com" class="footer_network"></a>
+      </div>
   </div>
-
+</div>
+</div>
 </footer>
 </body>
 </html>
