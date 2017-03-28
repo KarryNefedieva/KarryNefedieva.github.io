@@ -17,22 +17,22 @@
 
  <!-- logo-->
     <div class="title_logo">
-      <a href="#" >
-        <img src="image/header_logo.png" alt="splash">
-      </a>
-    </div>
+           <img src="image/header_logo.png" alt="splash">
+         </div>
 
  <!-- Навигация-->
     <div class="navigation">
       <nav>
-        <a href="catalog.html">Каталог</a>
-        <a href="#">Вопросы</a>
-        <a href="index.html#contact_block">Контакты</a>
+        <ul>
+           <li class="navigation_part"><a href="catalog.html" >Каталог</a></li>
+           <li class="navigation_part"><a href="#">Вопросы</a></li>
+           <li class="navigation_part"><a href="index.html#contact_block">Контакты</a></li>
+         </ul>
       </nav>
     </div>
 
-    <a href="form.html" class="header_bin">Корзина</a>
-    <a href="#" class="header_call">Заказать обратный звонок</a>
+    <a href="#" class="header_bin">Корзина</a>
+    <a href="form.html" class="header_call">Заказать обратный звонок</a>
   </div>
 </header>
 
@@ -46,9 +46,10 @@
   </div>
 
   <div class="index_promo_right">
-    <span class="spec_q1">&#10075;&#10075;</span>
+    <span class="spec_q_first">&#10075;&#10075;</span>
      <blockquote class="promo_cita"> Магазин Splash более 5 лет занимается  <br> аквариумистикой. У нас вы найдете все <br> по рыбкам. </blockquote>
-     <span class="spec_q2">&#10076;&#10076;</span>
+     <span class="spec_q_second">&#10076;&#10076;</span>
+  </div>
   </div>
 </section>
 
@@ -61,11 +62,11 @@
         <h1 class="catalog_title title_text_blue">Каталог товаров</h1>
         <nav class="catalog_nav">
           <ul>
-              <a href="#"><li class="catalog_nav_chapter_fish_index">Рыбы</li></a>
-              <a href="#"><li class="catalog_nav_chapter_aqua_index">Аквариумы</li></a>
-              <a href="#"><li class="catalog_nav_chapter_korm">Корма</li></a>
-              <a href="#"><li class="catalog_nav_chapter_ob">Оборудование</li></a>
-              <a href="#"><li class="catalog_nav_chapter_gr">Грунты и наполнители</li></a>
+              <li class="catalog_nav_chapter_fish_index"><a href="#">Рыбы</a></li>
+              <li class="catalog_nav_chapter_aqua_index"><a href="#">Аквариумы</a></li>
+              <li class="catalog_nav_chapter_korm"><a href="#">Корма</a></li>
+              <li class="catalog_nav_chapter_ob"><a href="#">Оборудование</a></li>
+              <li class="catalog_nav_chapter_gr"><a href="#">Грунты и наполнители</a></li>
           </ul>
         </nav>
       </div>
@@ -165,7 +166,7 @@
 
       <div class="col5">
         <div class="card_popular">
-          <a href="#">
+                  <a href="#">
             <div class="card_img">
               <img src="image/pop1.png" alt="Рыба полосатая">
             </div>
@@ -217,8 +218,7 @@
         </div>
         <div style="clear: both"></div>
         <a href="#" class="popular_button">Посмотреть товары</a>
-      </div>
-    </div>
+         </div>
   </section>
 
   <!-- Как сделать заказ? -->
@@ -258,8 +258,7 @@
             <span class="tutorial_text3">Оплатите заказ по карте или <br>
             наличными в магазине</span>
           </div>
-
- </div>
+        </div>
       </div>
   </section>
 
@@ -362,6 +361,8 @@
       </script>
  </div>
 
+
+
   <div class="contact_content" id="contact_block">
     <span class="contact_title">Салон аквадизайна "Splash"</span>
     <span class="contact_subtitle">Санкт-Петербург, набережная реки Фонтанки 99  </span>
@@ -379,17 +380,19 @@
       <div class="contact_chapters_right">
         <div class="contact_text">Цены, предcтавленные на сайте действительны,  только в<br>
        случае оформления заказа через Интернет-магазин</div>
-        <div class="contact_text_tel">+7 (812) 310-2972</div>
-        <div class="contact_text_mail">aqualandia@mail.ru</div>
+        <div class="contact_text_tel"><a href="#">+7 (812) 310-2972</a></div>
+        <div class="contact_text_mail"><a href="#">aqualandia@mail.ru</a></div>
       </div>
     </div>
   </div>
+</div>
 </main>
 
-
+ <div style="clear: both"></div>
 
 <!-- Подвал-->
-<footer class="bcg_blue">
+<footer class="bgc_blue">
+
   <div class="container">
 
     <div class="footer_block">
@@ -427,6 +430,7 @@
       </div>
     </div>
   </div>
+
 </footer>
 </body>
 </html>
