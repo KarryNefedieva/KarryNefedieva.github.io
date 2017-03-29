@@ -87,13 +87,25 @@ background-color: #e8e8e8;
 width: 100%;
 }
 
-.bcg_print{
-background-image: url(../image/bсg_blue.png);
+.bcg_print {
+/*background-image: url(../image/bсg_blue.png);
 background-repeat: round;
-background-color: #b4daff;
+background-color: #b4daff;*/
 width: 100%;
 position: relative;
 top: -3px;
+
+background-color: #d2e4fd;
+ background-image:
+ repeating-linear-gradient(
+ -45deg,
+ transparent,
+ transparent 2px,
+ #c8daf4 2px,
+ #3f6295 4px
+
+);
+
 }
 
 
@@ -307,6 +319,7 @@ margin-bottom: 14px;
 width: 1170px;
 border-bottom: 1px solid #1c4366;
 font-size: 0px;
+vertical-align: top;
 }
 
 .catalog_nav a{
@@ -322,7 +335,7 @@ font-size: 20px;
 margin-top: 20px;
 padding-top: 17px;
 padding-bottom: 17px;
-margin-left: 2%;
+/*text-align: center;*/
 }
 
 .catalog_nav_chapter_aqua a{
@@ -351,13 +364,14 @@ position: relative;
 .catalog_nav_chapter_aqua{
 display: inline-block;
 background-color: #7fa0dd;
-width: 15%;
+width: 18%;
 font-size: 20px;
 margin-top: 20px;
 padding-top: 17px;
 padding-bottom: 17px;
 color: #fff;
-margin-left: 2%;
+text-align: center;
+
 }
 
 .catalog_nav_chapter_aqua:before{
@@ -366,7 +380,6 @@ background-repeat: no-repeat;
 display: inline-block;
 font-size: 20px;
 padding-right: 15px;
-margin-left: 15px;
 top: 5px;
 position: relative;
 }
@@ -374,13 +387,14 @@ position: relative;
 .catalog_nav_chapter_fish_index{
 display: inline-block;
 background-color: #7fa0dd;
-width: 13%;
+width: 15%;
 font-size: 20px;
 margin-top: 20px;
 padding-top: 17px;
 padding-bottom: 17px;
 color: #fff;
-margin-left: 2%;
+text-align: center;
+
 }
 
 .catalog_nav_chapter_fish_index:before{
@@ -389,7 +403,7 @@ background-repeat: no-repeat;
 display: inline-block;
 font-size: 20px;
 padding-right: 15px;
-margin-left: 15px;
+text-align: center;
 top: 5px;
 position: relative;
 }
@@ -402,12 +416,12 @@ text-decoration: none;
 display: inline-block;
 background-color: #fff;
 color: #000;
-width: 15%;
+width: 20%;
 font-size: 20px;
 margin-top: 20px;
 padding-top: 17px;
 padding-bottom: 17px;
-margin-left: 2%;;
+text-align: center;/
 }
 
 .catalog_nav_chapter_aqua_index:hover{color:#7fa0dd;}
@@ -426,12 +440,12 @@ position: relative;
 .catalog_nav_chapter_korm{
 display: inline-block;
 color: #000;
-width: 15%;
+width: 18%;
 font-size: 20px;
 margin-top: 20px;
 padding-top: 17px;
 padding-bottom: 17px;
-margin-left: 2%;
+text-align: center;
 }
 
 .catalog_nav_chapter_korm:hover{color:#7fa0dd;}
@@ -450,13 +464,13 @@ position: relative;
 .catalog_nav_chapter_ob{
 display: inline-block;
 color: #000;
-width: 18%;
+width: 22%;
 font-size: 20px;
 margin-top: 20px;
 padding-top: 17px;
 padding-bottom: 17px;
-margin-left: 2%;
 box-sizing: border-box;
+text-align: center;
 }
 
 .catalog_nav_chapter_ob:hover{color:#7fa0dd;}
@@ -475,12 +489,12 @@ position: relative;
 .catalog_nav_chapter_gr{
 display: inline-block;
 color: #000;
-width: 25%;
+width: 22%;
 font-size: 20px;
 margin-top: 20px;
 padding-top: 17px;
 padding-bottom: 17px;
-margin-left: 2%;
+text-align: center;
 }
 
 .catalog_nav_chapter_gr:hover{color:#7fa0dd;}
